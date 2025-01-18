@@ -1,0 +1,5 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(18Jan2025:15:34:32):( xrun -Q -unbuffered -timescale 1ns/1ns -sysv -access +rw -uvmnocdnsextra -uvmhome /xcelium23.09/tools//methodology/UVM/CDNS-1.2/sv /xcelium23.09/tools//methodology/UVM/CDNS-1.2/sv/src/uvm_macros.svh design.sv testbench.sv )
