@@ -1,0 +1,585 @@
+xrun: 23.09-s001: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	23.09-s001: Started on Jan 18, 2025 at 15:34:31 EST
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	-uvmnocdnsextra
+	-uvmhome /xcelium23.09/tools//methodology/UVM/CDNS-1.2/sv
+	/xcelium23.09/tools//methodology/UVM/CDNS-1.2/sv/src/uvm_macros.svh
+	design.sv
+	testbench.sv
+  reg [DATA_WIDTH-1:0] rdata;
+                           |
+xmvlog: *W,ILLPDX (design.sv,34|27): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'rdata') [12.3.4(IEEE-2001)].
+class mem_seq_item extends uvm_sequence_item;
+                                           |
+xmvlog: *E,SVNOTY (mem_seq_item.sv,5|43): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,SVNOTY (mem_seq_item.sv,18|38): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,SVEXTK (mem_seq_item.sv,18|38): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,SVEXTK (mem_seq_item.sv,18|38): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,SVNOTY (mem_seq_item.sv,18|38): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,EXPSMC (mem_seq_item.sv,18|38): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,SVNOTY (mem_seq_item.sv,18|38): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,EXPSMC (mem_seq_item.sv,18|38): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,SVNOTY (mem_seq_item.sv,18|38): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,EXPSMC (mem_seq_item.sv,18|38): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,NOIPRT (mem_seq_item.sv,18|38): Unrecognized declaration 'mem_seq_item' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,NOTINF (mem_seq_item.sv,18|38): Interfaces are not allowed within functions [SystemVerilog].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,SVNOTY (mem_seq_item.sv,18|38): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,SVNOTY (mem_seq_item.sv,18|38): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,NOTSTT (mem_seq_item.sv,18|38): expecting a statement [9(IEEE)].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,MISEXX (mem_seq_item.sv,18|38): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,NOTSTT (mem_seq_item.sv,18|38): expecting a statement [9(IEEE)].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,MISEXX (mem_seq_item.sv,18|38): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils_begin(mem_seq_item)
+                                      |
+xmvlog: *E,MISEXX (mem_seq_item.sv,18|38): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+    super.new(name);
+        |
+xmvlog: *E,CLSSPX (mem_seq_item.sv,29|8): 'super' can only be used within a class scope that derives from a base class.
+  constraint wr_rd_c { wr_en != rd_en; }; 
+                                        |
+xmvlog: *W,UEXPSC (mem_seq_item.sv,35|40): Ignored unexpected semicolon following SystemVerilog description keyword (constraint).
+class mem_sequencer extends uvm_sequencer#(mem_seq_item);
+                                        |
+xmvlog: *E,SVNOTY (mem_sequencer.sv,5|40): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_sequencer) 
+                                    |
+xmvlog: *E,SVNOTY (mem_sequencer.sv,7|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_sequencer) 
+                                    |
+xmvlog: *E,SVEXTK (mem_sequencer.sv,7|36): expecting a ';' (to terminate a type_declaration).
+  `uvm_component_utils(mem_sequencer) 
+                                    |
+xmvlog: *E,SVEXTK (mem_sequencer.sv,7|36): expecting a ';' (to terminate a type_declaration).
+  `uvm_component_utils(mem_sequencer) 
+                                    |
+xmvlog: *E,SVNOTY (mem_sequencer.sv,7|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_sequencer) 
+                                    |
+xmvlog: *E,EXPSMC (mem_sequencer.sv,7|36): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_component_utils(mem_sequencer) 
+                                    |
+xmvlog: *E,SVNOTY (mem_sequencer.sv,7|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_sequencer) 
+                                    |
+xmvlog: *E,EXPSMC (mem_sequencer.sv,7|36): expecting a semicolon (';') [10.3.1(IEEE)].
+  function new(string name, uvm_component parent);
+                                        |
+xmvlog: *E,EXPRPA (mem_sequencer.sv,12|40): expecting a right parenthesis (')') [A.2.6(IEEE)].
+  function new(string name, uvm_component parent);
+                                        |
+xmvlog: *E,NOIPRT (mem_sequencer.sv,12|40): Unrecognized declaration 'uvm_component' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  function new(string name, uvm_component parent);
+                                        |
+xmvlog: *E,NOTINF (mem_sequencer.sv,12|40): Interfaces are not allowed within tasks [SystemVerilog].
+  function new(string name, uvm_component parent);
+                                               |
+xmvlog: *E,ILLPDL (mem_sequencer.sv,12|47): Mixing of ansi & non-ansi style port declaration is not legal.
+  function new(string name, uvm_component parent);
+                                                |
+xmvlog: *E,EXPSMC (mem_sequencer.sv,12|48): expecting a semicolon (';') [12.3.2(IEEE)].
+    super.new(name,parent);
+        |
+xmvlog: *E,EXPRPA (mem_sequencer.sv,13|8): expecting a right parenthesis (')') [A.2.6(IEEE)].
+class mem_sequence extends uvm_sequence#(mem_seq_item);
+                                      |
+xmvlog: *E,SVNOTY (mem_sequence.sv,8|38): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,SVNOTY (mem_sequence.sv,10|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,SVEXTK (mem_sequence.sv,10|32): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,SVEXTK (mem_sequence.sv,10|32): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,SVNOTY (mem_sequence.sv,10|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,EXPSMC (mem_sequence.sv,10|32): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,SVNOTY (mem_sequence.sv,10|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,EXPSMC (mem_sequence.sv,10|32): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,SVNOTY (mem_sequence.sv,10|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,EXPSMC (mem_sequence.sv,10|32): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,NOIPRT (mem_sequence.sv,10|32): Unrecognized declaration 'mem_sequence' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,NOTINF (mem_sequence.sv,10|32): Interfaces are not allowed within functions [SystemVerilog].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,SVNOTY (mem_sequence.sv,10|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,SVNOTY (mem_sequence.sv,10|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,NOTSTT (mem_sequence.sv,10|32): expecting a statement [9(IEEE)].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,MISEXX (mem_sequence.sv,10|32): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,NOTSTT (mem_sequence.sv,10|32): expecting a statement [9(IEEE)].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,MISEXX (mem_sequence.sv,10|32): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(mem_sequence)
+                                |
+xmvlog: *E,MISEXX (mem_sequence.sv,10|32): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+    super.new(name);
+        |
+xmvlog: *E,CLSSPX (mem_sequence.sv,16|8): 'super' can only be used within a class scope that derives from a base class.
+  `uvm_declare_p_sequencer(mem_sequencer)
+                                        |
+xmvlog: *E,NOIPRT (mem_sequence.sv,19|40): Unrecognized declaration 'mem_sequencer' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+    req.randomize();
+                |
+xmvlog: *W,FUNTSK (mem_sequence.sv,28|16): function called as a task without void'().
+class write_sequence extends uvm_sequence#(mem_seq_item);
+                                        |
+xmvlog: *E,SVNOTY (mem_sequence.sv,39|40): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,41|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,SVEXTK (mem_sequence.sv,41|34): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,SVEXTK (mem_sequence.sv,41|34): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,41|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,EXPSMC (mem_sequence.sv,41|34): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,41|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,EXPSMC (mem_sequence.sv,41|34): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,41|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,EXPSMC (mem_sequence.sv,41|34): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,NOIPRT (mem_sequence.sv,41|34): Unrecognized declaration 'write_sequence' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,NOTINF (mem_sequence.sv,41|34): Interfaces are not allowed within functions [SystemVerilog].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,41|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,41|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,NOTSTT (mem_sequence.sv,41|34): expecting a statement [9(IEEE)].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,MISEXX (mem_sequence.sv,41|34): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,NOTSTT (mem_sequence.sv,41|34): expecting a statement [9(IEEE)].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,MISEXX (mem_sequence.sv,41|34): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(write_sequence)
+                                  |
+xmvlog: *E,MISEXX (mem_sequence.sv,41|34): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+    super.new(name);
+        |
+xmvlog: *E,CLSSPX (mem_sequence.sv,47|8): 'super' can only be used within a class scope that derives from a base class.
+    `uvm_do_with(req,{req.wr_en==1;})
+                                    |
+xmvlog: *E,SVNOTY (mem_sequence.sv,51|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_do_with(req,{req.wr_en==1;})
+                                    |
+xmvlog: *E,SVNOTY (mem_sequence.sv,51|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+class read_sequence extends uvm_sequence#(mem_seq_item);
+                                       |
+xmvlog: *E,SVNOTY (mem_sequence.sv,59|39): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,SVNOTY (mem_sequence.sv,61|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,SVEXTK (mem_sequence.sv,61|33): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,SVEXTK (mem_sequence.sv,61|33): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,SVNOTY (mem_sequence.sv,61|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,EXPSMC (mem_sequence.sv,61|33): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,SVNOTY (mem_sequence.sv,61|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,EXPSMC (mem_sequence.sv,61|33): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,SVNOTY (mem_sequence.sv,61|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,EXPSMC (mem_sequence.sv,61|33): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,NOIPRT (mem_sequence.sv,61|33): Unrecognized declaration 'read_sequence' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,NOTINF (mem_sequence.sv,61|33): Interfaces are not allowed within functions [SystemVerilog].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,SVNOTY (mem_sequence.sv,61|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,SVNOTY (mem_sequence.sv,61|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,NOTSTT (mem_sequence.sv,61|33): expecting a statement [9(IEEE)].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,MISEXX (mem_sequence.sv,61|33): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,NOTSTT (mem_sequence.sv,61|33): expecting a statement [9(IEEE)].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,MISEXX (mem_sequence.sv,61|33): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(read_sequence)
+                                 |
+xmvlog: *E,MISEXX (mem_sequence.sv,61|33): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+    super.new(name);
+        |
+xmvlog: *E,CLSSPX (mem_sequence.sv,67|8): 'super' can only be used within a class scope that derives from a base class.
+    `uvm_do_with(req,{req.rd_en==1;})
+                                    |
+xmvlog: *E,SVNOTY (mem_sequence.sv,71|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_do_with(req,{req.rd_en==1;})
+                                    |
+xmvlog: *E,SVNOTY (mem_sequence.sv,71|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+class write_read_sequence extends uvm_sequence#(mem_seq_item);
+                                             |
+xmvlog: *E,SVNOTY (mem_sequence.sv,79|45): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,SVNOTY (mem_sequence.sv,81|39): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,SVEXTK (mem_sequence.sv,81|39): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,SVEXTK (mem_sequence.sv,81|39): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,SVNOTY (mem_sequence.sv,81|39): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,EXPSMC (mem_sequence.sv,81|39): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,SVNOTY (mem_sequence.sv,81|39): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,EXPSMC (mem_sequence.sv,81|39): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,SVNOTY (mem_sequence.sv,81|39): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,EXPSMC (mem_sequence.sv,81|39): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,NOIPRT (mem_sequence.sv,81|39): Unrecognized declaration 'write_read_sequence' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,NOTINF (mem_sequence.sv,81|39): Interfaces are not allowed within functions [SystemVerilog].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,SVNOTY (mem_sequence.sv,81|39): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,SVNOTY (mem_sequence.sv,81|39): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,NOTSTT (mem_sequence.sv,81|39): expecting a statement [9(IEEE)].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,MISEXX (mem_sequence.sv,81|39): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,NOTSTT (mem_sequence.sv,81|39): expecting a statement [9(IEEE)].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,MISEXX (mem_sequence.sv,81|39): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(write_read_sequence)
+                                       |
+xmvlog: *E,MISEXX (mem_sequence.sv,81|39): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+    super.new(name);
+        |
+xmvlog: *E,CLSSPX (mem_sequence.sv,87|8): 'super' can only be used within a class scope that derives from a base class.
+    `uvm_do_with(req,{req.wr_en==1;})
+                                    |
+xmvlog: *E,SVNOTY (mem_sequence.sv,91|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_do_with(req,{req.wr_en==1;})
+                                    |
+xmvlog: *E,SVNOTY (mem_sequence.sv,91|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_do_with(req,{req.rd_en==1;})
+                                    |
+xmvlog: *E,SVNOTY (mem_sequence.sv,92|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_do_with(req,{req.rd_en==1;})
+                                    |
+xmvlog: *E,SVNOTY (mem_sequence.sv,92|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+class wr_rd_sequence extends uvm_sequence#(mem_seq_item);
+                                        |
+xmvlog: *E,SVNOTY (mem_sequence.sv,101|40): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  write_sequence wr_seq;
+               |
+xmvlog: *E,NOIPRT (mem_sequence.sv,106|15): Unrecognized declaration 'write_sequence' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  read_sequence  rd_seq;
+              |
+xmvlog: *E,NOIPRT (mem_sequence.sv,107|14): Unrecognized declaration 'read_sequence' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,109|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,SVEXTK (mem_sequence.sv,109|34): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,SVEXTK (mem_sequence.sv,109|34): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,109|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,EXPSMC (mem_sequence.sv,109|34): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,109|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,EXPSMC (mem_sequence.sv,109|34): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,109|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,EXPSMC (mem_sequence.sv,109|34): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,NOIPRT (mem_sequence.sv,109|34): Unrecognized declaration 'wr_rd_sequence' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,NOTINF (mem_sequence.sv,109|34): Interfaces are not allowed within functions [SystemVerilog].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,109|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,109|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,NOTSTT (mem_sequence.sv,109|34): expecting a statement [9(IEEE)].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,MISEXX (mem_sequence.sv,109|34): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,NOTSTT (mem_sequence.sv,109|34): expecting a statement [9(IEEE)].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,MISEXX (mem_sequence.sv,109|34): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(wr_rd_sequence)
+                                  |
+xmvlog: *E,MISEXX (mem_sequence.sv,109|34): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+    super.new(name);
+        |
+xmvlog: *E,CLSSPX (mem_sequence.sv,115|8): 'super' can only be used within a class scope that derives from a base class.
+    `uvm_do(wr_seq)
+                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,119|18): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_do(wr_seq)
+                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,119|18): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_do(rd_seq)
+                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,120|18): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_do(rd_seq)
+                  |
+xmvlog: *E,SVNOTY (mem_sequence.sv,120|18): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+class mem_driver extends uvm_driver #(mem_seq_item);
+                                  |
+xmvlog: *E,SVNOTY (mem_driver.sv,7|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_driver)
+                                 |
+xmvlog: *E,SVNOTY (mem_driver.sv,13|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_driver)
+                                 |
+xmvlog: *E,SVEXTK (mem_driver.sv,13|33): expecting a ';' (to terminate a type_declaration).
+  `uvm_component_utils(mem_driver)
+                                 |
+xmvlog: *E,SVEXTK (mem_driver.sv,13|33): expecting a ';' (to terminate a type_declaration).
+  `uvm_component_utils(mem_driver)
+                                 |
+xmvlog: *E,SVNOTY (mem_driver.sv,13|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_driver)
+                                 |
+xmvlog: *E,EXPSMC (mem_driver.sv,13|33): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_component_utils(mem_driver)
+                                 |
+xmvlog: *E,SVNOTY (mem_driver.sv,13|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_driver)
+                                 |
+xmvlog: *E,EXPSMC (mem_driver.sv,13|33): expecting a semicolon (';') [10.3.1(IEEE)].
+  function new (string name, uvm_component parent);
+                                         |
+xmvlog: *E,EXPRPA (mem_driver.sv,18|41): expecting a right parenthesis (')') [A.2.6(IEEE)].
+  function new (string name, uvm_component parent);
+                                         |
+xmvlog: *E,NOIPRT (mem_driver.sv,18|41): Unrecognized declaration 'uvm_component' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  function new (string name, uvm_component parent);
+                                         |
+xmvlog: *E,NOTINF (mem_driver.sv,18|41): Interfaces are not allowed within tasks [SystemVerilog].
+  function new (string name, uvm_component parent);
+                                                |
+xmvlog: *E,ILLPDL (mem_driver.sv,18|48): Mixing of ansi & non-ansi style port declaration is not legal.
+  function new (string name, uvm_component parent);
+                                                 |
+xmvlog: *E,EXPSMC (mem_driver.sv,18|49): expecting a semicolon (';') [12.3.2(IEEE)].
+    super.new(name, parent);
+        |
+xmvlog: *E,EXPRPA (mem_driver.sv,19|8): expecting a right parenthesis (')') [A.2.6(IEEE)].
+  function void build_phase(uvm_phase phase);
+                                    |
+xmvlog: *E,SVNOTY (mem_driver.sv,25|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  virtual task run_phase(uvm_phase phase);
+                                 |
+xmvlog: *E,SVNOTY (mem_driver.sv,34|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+class mem_monitor extends uvm_monitor;
+                                    |
+xmvlog: *E,SVNOTY (mem_monitor.sv,5|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  uvm_analysis_port #(mem_seq_item) item_collected_port;
+                  |
+xmvlog: *E,EXPENC (mem_monitor.sv,15|18): Expecting the keyword 'endclass'.
+  `uvm_component_utils(mem_monitor)
+                                  |
+xmvlog: *E,BADQAL (mem_monitor.sv,23|34): Lifetime or qualifier(s) 'static' not allowed before function declaration.
+  `uvm_component_utils(mem_monitor)
+                                  |
+xmvlog: *E,SVNOTY (mem_monitor.sv,23|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_monitor)
+                                  |
+xmvlog: *E,EXPSMC (mem_monitor.sv,23|34): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_component_utils(mem_monitor)
+                                  |
+xmvlog: *E,BADQAL (mem_monitor.sv,23|34): Lifetime or qualifier(s) 'virtual' not allowed before function declaration.
+  `uvm_component_utils(mem_monitor)
+                                  |
+xmvlog: *E,SVNOTY (mem_monitor.sv,23|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_component_utils(mem_monitor)
+                                  |
+xmvlog: *E,EXPSMC (mem_monitor.sv,23|34): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_component_utils(mem_monitor)
+                                  |
+xmvlog: *E,BADQAL (mem_monitor.sv,23|34): Lifetime or qualifier(s) 'virtual' not allowed before function declaration.
+  function new (string name, uvm_component parent);
+             |
+xmvlog: *E,NEWOIC (mem_monitor.sv,28|13): The class constructor method 'new' is only allowed within a class declaration.
+  function new (string name, uvm_component parent);
+                                         |
+xmvlog: *E,EXPRPA (mem_monitor.sv,28|41): expecting a right parenthesis (')') [A.2.6(IEEE)].
+  function new (string name, uvm_component parent);
+                                         |
+xmvlog: *E,NOIPRT (mem_monitor.sv,28|41): Unrecognized declaration 'uvm_component' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+  function new (string name, uvm_component parent);
+                                         |
+xmvlog: *E,NOTINF (mem_monitor.sv,28|41): Interfaces are not allowed within tasks [SystemVerilog].
+  function new (string name, uvm_component parent);
+                                                |
+xmvlog: *E,ILLPDL (mem_monitor.sv,28|48): Mixing of ansi & non-ansi style port declaration is not legal.
+  function new (string name, uvm_component parent);
+                                                 |
+xmvlog: *E,EXPSMC (mem_monitor.sv,28|49): expecting a semicolon (';') [12.3.2(IEEE)].
+    super.new(name, parent);
+        |
+xmvlog: *E,EXPRPA (mem_monitor.sv,29|8): expecting a right parenthesis (')') [A.2.6(IEEE)].
+  function void build_phase(uvm_phase phase);
+                                    |
+xmvlog: *E,SVNOTY (mem_monitor.sv,37|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  virtual task run_phase(uvm_phase phase);
+             |
+xmvlog: *E,BADQAL (mem_monitor.sv,47|13): Lifetime or qualifier(s) 'virtual' not allowed before task declaration.
+  virtual task run_phase(uvm_phase phase);
+                                 |
+xmvlog: *E,SVNOTY (mem_monitor.sv,47|33): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+endclass : mem_monitor
+       |
+xmvlog: *E,MPANDC (mem_monitor.sv,69|7): expecting the keyword 'module', 'macromodule', 'primitive', 'connectmodule','connect', 'discipline' or 'nature' [A.1].
+    uvm_config_db#(virtual mem_if)::set(uvm_root::get(),"*","vif",intf);
+                         |
+xmvlog: *W,PKGPARAM (testbench.sv,55|25): Overriding package parameter is illegal according to the SystemVerilog LRM. This will lead to unexpected simulation results.
+    uvm_config_db#(virtual mem_if)::set(uvm_root::get(),"*","vif",intf);
+                |
+xmvlog: *E,NOPBIND (testbench.sv,55|16): Package uvm_config_db could not be bound.
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun	23.09-s001: Exiting on Jan 18, 2025 at 15:34:33 EST  (total: 00:00:02)
