@@ -1,0 +1,114 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-1_Full64; Runtime version V-2023.12-1_Full64;  Jan 18 21:57 2025
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+
+ VCS Coverage Metrics Release V-2023.12-1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+ucli% dump -file myfsdb.fsdb -type FSDB
+*Verdi* Loading libsscore_vcs202312.so
+FSDB Dumper for VCS, Release Verdi_V-2023.12-1, Linux x86_64/64bit, 01/10/2024
+(C) 1996 - 2024 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'myfsdb.fsdb'
+FSDB0
+ucli% dump -deltaCycle on
+*Verdi* : fsdbDumpon("glitch") - All FSDB files at 0 ps.
+on
+ucli% dump -add / -aggregates -fid FSDB0 -fsdb_opt +mba+packedmda+struct
+
+Warning-[UCLI-DUMP-FSDB-IGNORE] UCLI dump FSDB options ignored
+  If there is a scenario like this that unknown options '+mba' are used with 
+  -fsdb_opt when dumping FSDB in UCLI, they will be ignored.
+  Please use the 'dump -help' or refer to UCLI user guide for dumping FSDB in 
+  UCLI
+
+*Verdi* : Begin traversing the SVA assertions, layer (0).
+*Verdi* : End of traversing the SVA assertions.
+*Verdi* : Begin traversing the scope (/), layer (0).
+*Verdi* : Enable +struct, +mda and +packedmda dumping.
+*Verdi* : End of traversing.
+*Verdi* : Flush all FSDB Files at 0 ps.
+1
+ucli% run
+UVM_INFO @ 0: reporter [RNTST] Running test mem_wr_rd_test...
+UVM_INFO @ 0: reporter [TIMOUTSET] '+UVM_TIMEOUT=100000' provided on the command line is being applied.
+----------------------------------------------------------------
+Name                         Type                    Size  Value
+----------------------------------------------------------------
+uvm_test_top                 mem_wr_rd_test          -     @461 
+  env                        mem_model_env           -     @469 
+    mem_agnt                 mem_agent               -     @481 
+      driver                 mem_driver              -     @522 
+        rsp_port             uvm_analysis_port       -     @539 
+        seq_item_port        uvm_seq_item_pull_port  -     @530 
+      monitor                mem_monitor             -     @501 
+        item_collected_port  uvm_analysis_port       -     @513 
+      sequencer              mem_sequencer           -     @548 
+        rsp_export           uvm_analysis_export     -     @556 
+        seq_item_export      uvm_seq_item_pull_imp   -     @662 
+        arbitration_queue    array                   0     -    
+        lock_queue           array                   0     -    
+        num_last_reqs        integral                32    'd1  
+        num_last_rsps        integral                32    'd1  
+    mem_scb                  mem_scoreboard          -     @489 
+      item_collected_export  uvm_analysis_imp        -     @678 
+----------------------------------------------------------------
+UVM_INFO ../tb/mem_scoreboard.sv(64) @ 25000: uvm_test_top.env.mem_scb [mem_scoreboard] ------ :: WRITE DATA       :: ------
+UVM_INFO ../tb/mem_scoreboard.sv(65) @ 25000: uvm_test_top.env.mem_scb [mem_scoreboard] Addr: 0
+UVM_INFO ../tb/mem_scoreboard.sv(66) @ 25000: uvm_test_top.env.mem_scb [mem_scoreboard] Data: c4
+UVM_INFO ../tb/mem_scoreboard.sv(67) @ 25000: uvm_test_top.env.mem_scb [mem_scoreboard] ------------------------------------
+UVM_INFO ../tb/mem_scoreboard.sv(71) @ 55000: uvm_test_top.env.mem_scb [mem_scoreboard] ------ :: READ DATA Match :: ------
+UVM_INFO ../tb/mem_scoreboard.sv(72) @ 55000: uvm_test_top.env.mem_scb [mem_scoreboard] Addr: 3
+UVM_INFO ../tb/mem_scoreboard.sv(73) @ 55000: uvm_test_top.env.mem_scb [mem_scoreboard] Expected Data: ff Actual Data: ff
+UVM_INFO ../tb/mem_scoreboard.sv(74) @ 55000: uvm_test_top.env.mem_scb [mem_scoreboard] ------------------------------------
+UVM_INFO /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/base/uvm_objection.svh(1274) @ 95000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ../test/mem_test.sv(54) @ 95000: uvm_test_top [mem_wr_rd_test] ---------------------------------------
+UVM_INFO ../test/mem_test.sv(55) @ 95000: uvm_test_top [mem_wr_rd_test] ----           TEST PASS           ----
+UVM_INFO ../test/mem_test.sv(56) @ 95000: uvm_test_top [mem_wr_rd_test] ---------------------------------------
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   14
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[TIMOUTSET]     1
+[mem_scoreboard]     8
+[mem_wr_rd_test]     3
+$finish called from file "/opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/base/uvm_root.svh", line 437.
+$finish at simulation time                95000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+
+ Coverage status: End of All Coverages ...
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 95000 ps
+CPU Time:      0.510 seconds;       Data structure size:   0.6Mb
+Sat Jan 18 21:57:31 2025

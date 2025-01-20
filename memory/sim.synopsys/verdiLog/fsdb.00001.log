@@ -1,0 +1,9 @@
+#######################################################################################
+# fsdb.xxxxx.log : log primitive debug message of FSDB Reader
+# This is for R&D to analyze when there are issues happening when FSDB reading
+# The corresponding FSDB file is /home/faculty/d/davidkebo/csce-714/2025-spring/demos/memory/sim.synopsys/mem_wr_rd_test.fsdb
+#######################################################################################
+[BASIC]Reader version : Chronologic Simulation VCS Release V-2023.12-1_Full64
+[BASIC]simulator version : Chronologic Simulation VCS Release V-2023.12-1_Full64
+[BASIC]dumper version : FSDB Dumper for VCS, Release Verdi_V-2023.12-1, Linux x86_64/64bit, 01/10/2024
+[THREAD]The MTR thread count is 2

@@ -1,0 +1,308 @@
+$date
+	Sat Jan 18 21:57:30 2025
+$end
+
+$version
+	Synopsys VCS version V-2023.12-1_Full64
+$end
+
+$timescale
+	1ps
+$end
+
+$comment Csum: 1 c31e1df744d7a69a $end
+
+
+$scope module $unit $end
+$var reg 32 ! is_reg_hier_recorded [31:0] $end
+$var reg 32 " is_dhier_visited [31:0] $end
+$var reg 32 # is_reg_hier_dumping [31:0] $end
+$upscope $end
+
+
+$scope module _vcs_msglog $end
+$var reg 32 $ _MSG_T [31:0] $end
+$var reg 32 % _MSG_S [31:0] $end
+$var reg 32 & _MSG_R [31:0] $end
+$upscope $end
+
+
+$scope module uvm_custom_install_recording $end
+$var reg 32 ' file_handle [31:0] $end
+$var reg 32 ( is_sanity_exist [31:0] $end
+
+$scope begin unnamed$$_0 $end
+$var reg 32 ) verdi_tracing [31:0] $end
+
+$scope begin unnamed$$_1 $end
+$upscope $end
+
+
+$scope begin unnamed$$_2 $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope module uvm_custom_install_verdi_recording $end
+$var reg 32 * user_verbosity [31:0] $end
+$var integer 32 + uvmHandle $end
+$var reg 1 , hooks_version_flag $end
+$var reg 1 - plusargs_tested $end
+$var reg 1 . enable_port_recording $end
+$var reg 1 / enable_tlm2_port_recording $end
+$var reg 1 0 enable_imp_port_recording $end
+$var reg 1 1 enable_verdi_debug $end
+$var reg 32 2 file_h [31:0] $end
+$var reg 32 3 file_handle [31:0] $end
+$var reg 32 4 is_sanity_exist [31:0] $end
+$var reg 32 5 is_vpd_record [31:0] $end
+$var reg 32 6 is_vcs_home_exist [31:0] $end
+$var reg 32 7 is_vcs_uvm_home_exist [31:0] $end
+
+$scope begin unnamed$$_vcs_3 $end
+
+$scope begin unnamed$$_0 $end
+$var reg 32 8 verb_count [31:0] $end
+$upscope $end
+
+
+$scope begin unnamed$$_1 $end
+
+$scope begin unnamed$$_2 $end
+$upscope $end
+
+
+$scope begin unnamed$$_3 $end
+$upscope $end
+
+
+$scope begin unnamed$$_4 $end
+$upscope $end
+
+$upscope $end
+
+
+$scope begin unnamed$$_5 $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope module tbench_top $end
+$var reg 1 9 clk $end
+$var reg 1 : reset $end
+
+$scope begin unnamed$$_vcs_2 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_0 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_1 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_3 $end
+$upscope $end
+
+
+$scope module intf $end
+$var reg 1 ; clk $end
+$var reg 1 < reset $end
+$var reg 2 = addr [1:0] $end
+$var reg 1 > wr_en $end
+$var reg 1 ? rd_en $end
+$var reg 8 @ wdata [7:0] $end
+$var reg 8 A rdata [7:0] $end
+$upscope $end
+
+
+$scope module DUT $end
+$var wire 1 B clk $end
+$var wire 1 C reset $end
+$var wire 2 D addr [1:0] $end
+$var wire 1 E wr_en $end
+$var wire 1 F rd_en $end
+$var wire 8 G wdata [7:0] $end
+$var reg 8 H rdata [7:0] $end
+
+$scope begin unnamed$$_0 $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope module uvm_pkg $end
+$var time 64 I setting_offset $end
+$var reg 32 J uvm_global_random_seed [31:0] $end
+$var reg 32 K UVM_UNBOUNDED_CONNECTIONS [31:0] $end
+$var reg 1 L uvm_start_uvm_declarations $end
+$var reg 32 M setting_verbosity [31:0] $end
+$var reg 1 N is_verdi_set_verbosity_called $end
+$var reg 1 O is_uvm_factory_trace_checked $end
+$var reg 1 P is_verdi_trace_fac $end
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+b00000000000000000000000000000000 "
+b00000000000000000000000000000000 #
+b00000000000000000000000000000000 !
+1O
+0N
+0P
+1L
+bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx I
+b11111111111111111111111111111111 K
+b00000000000000000000000000000000 M
+b01000010000001111100110001000111 J
+b00000000000000000000000000000000 &
+b00000000000000000000000000000000 %
+b00000000000000000000000000000000 $
+b00000000000000000000000000000000 '
+b00000000000000000000000000000000 (
+b00000000000000000000000000000000 )
+00
+0.
+0/
+01
+0,
+0-
+b00000000000000000000000000000000 +
+b00000000000000000000000000000000 2
+b00000000000000000000000000000000 3
+b00000000000000000000000000000000 4
+b00000000000000000000000000000001 6
+b00000000000000000000000000000000 7
+b00000000000000000000000000000000 5
+b00000000000000000000000000000000 8
+b00000000000000000000000011001000 *
+09
+1:
+bxxxxxxxx A
+bxxxxxxxx @
+bxx =
+bxxxxxxxx H
+0;
+1<
+bxx D
+bxxxxxxxx G
+0B
+1C
+xE
+xF
+x?
+x>
+$end
+#5000
+19
+1;
+1B
+0:
+0<
+0C
+#6000
+1>
+1E
+0?
+0F
+b00 =
+b11000100 @
+b00 D
+b11000100 G
+#10000
+09
+0;
+0B
+#15000
+19
+1;
+1B
+#16000
+0>
+0E
+#20000
+09
+0;
+0B
+#25000
+19
+1;
+1B
+#26000
+b11 =
+1?
+1F
+b11 D
+#30000
+09
+0;
+0B
+#35000
+19
+1;
+1B
+b11111111 H
+b11111111 A
+#36000
+0?
+0F
+#40000
+09
+0;
+0B
+#45000
+19
+1;
+1B
+#50000
+09
+0;
+0B
+#55000
+19
+1;
+1B
+#60000
+09
+0;
+0B
+#65000
+19
+1;
+1B
+#70000
+09
+0;
+0B
+#75000
+19
+1;
+1B
+#80000
+09
+0;
+0B
+#85000
+19
+1;
+1B
+#90000
+09
+0;
+0B
+#95000
+19
+1;
+1B

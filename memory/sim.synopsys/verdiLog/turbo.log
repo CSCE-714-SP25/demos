@@ -1,0 +1,2 @@
+Command Line: /opt/coe/synopsys/verdi/V-2023.12-1/platform/LINUXAMD64/bin/Novas -ssf mem_wr_rd_test.fsdb
+uname(Linux n01-zeus.olympus.ece.tamu.edu 4.18.0-553.33.1.el8_10.x86_64 #1 SMP Fri Dec 6 15:07:20 EST 2024 x86_64)
