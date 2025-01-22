@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1737507265.131925187, "rt":14.15, "ut":12.77, "st":0.61}}
+{"vcselab":{"timestamp_begin":1737507279.389390368, "rt":0.88, "ut":0.21, "st":0.11}}
+{"link":{"timestamp_begin":1737507280.362619216, "rt":3.60, "ut":0.72, "st":0.34}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1737507264.434616031}
+{"VCS_COMP_START_TIME": 1737507264.434616031}
+{"VCS_COMP_END_TIME": 1737507284.584299921}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm-1.1 -timescale=1ns/1ps -kdb -debug_access+all -f filelist.f -cm line+tgl+assert+fsm+branch -cm_tgl portsonly -cm_tgl structarr -cm_report noinitial -cm_seqnoconst -cm_dir cov_work/test.vdb -cm_hier cover.cfg +define+PKT_LENGTH=7 +define+PKT_DELAY=4 +define+PKT_VCS=3"}
+{"vcs1": {"peak_mem": 546464}}
+{"vcselab": {"peak_mem": 258852}}

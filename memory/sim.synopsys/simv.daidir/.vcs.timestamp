@@ -700,9 +700,9 @@ cover.cfg
 filelist.f
 124
 which_declare=declare -f
-XDG_SESSION_ID=10193
+XDG_SESSION_ID=13178
 XDG_RUNTIME_DIR=/run/user/421004447
-XAUTHORITY=/tmp/.Xauthority-cxhliU
+XAUTHORITY=/tmp/.Xauthority-BG0BpW
 VMR_MODE_FLAG=64
 VERDI_HOME=/opt/coe/synopsys/verdi/V-2023.12-1/
 VCS_UVM_HOME=/opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1
@@ -720,9 +720,9 @@ UVMHOME=/opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm
 USER_PRINCIPAL_NAME=davidkebo@AUTH.TAMU.EDU
 UNAME=/bin/uname
 TOOL_HOME=/opt/coe/synopsys/vcs/V-2023.12-1/linux64
-SSH_TTY=/dev/pts/66
-SSH_CONNECTION=172.31.27.47 49587 128.194.17.175 22
-SSH_CLIENT=172.31.27.47 49587 22
+SSH_TTY=/dev/pts/84
+SSH_CONNECTION=172.31.31.235 49808 128.194.17.175 22
+SSH_CLIENT=172.31.31.235 49808 22
 SRUN_DEBUG=3
 SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
 SNPS_VCS_PYTHON3=/opt/coe/synopsys/vcs/V-2023.12-1/linux64/bin/Python-3.6.1/bin/python3
@@ -732,22 +732,22 @@ SLURM_WORKING_CLUSTER=olympus:olympus.ece.tamu.edu:6817:9984:109
 SLURM_UMASK=0002
 SLURM_TOPOLOGY_ADDR_PATTERN=node
 SLURM_TOPOLOGY_ADDR=n01-zeus
-SLURM_TASK_PID=65919
+SLURM_TASK_PID=1195156
 SLURM_TASKS_PER_NODE=1
 SLURM_SUBMIT_HOST=olympus.ece.tamu.edu
-SLURM_SUBMIT_DIR=/home/faculty/d/davidkebo/csce-714/2025-spring/demos/memory
+SLURM_SUBMIT_DIR=/home/faculty/d/davidkebo/csce-714/2025-spring/demos
 SLURM_STEP_TASKS_PER_NODE=1
 SLURM_STEP_NUM_TASKS=1
 SLURM_STEP_NUM_NODES=1
 SLURM_STEP_NODELIST=n01-zeus
-SLURM_STEP_LAUNCHER_PORT=34925
+SLURM_STEP_LAUNCHER_PORT=37727
 SLURM_STEP_ID=0
 SLURM_STEPID=0
-SLURM_SRUN_COMM_PORT=34925
+SLURM_SRUN_COMM_PORT=37727
 SLURM_SRUN_COMM_HOST=192.168.2.3
-SLURM_PTY_WIN_ROW=41
-SLURM_PTY_WIN_COL=80
-SLURM_PTY_PORT=42535
+SLURM_PTY_WIN_ROW=42
+SLURM_PTY_WIN_COL=96
+SLURM_PTY_PORT=34093
 SLURM_PROCID=0
 SLURM_PRIO_PROCESS=0
 SLURM_NTASKS=1
@@ -759,24 +759,24 @@ SLURM_LOCALID=0
 SLURM_LAUNCH_NODE_IPADDR=192.168.2.3
 SLURM_JOB_USER=davidkebo
 SLURM_JOB_UID=421004447
-SLURM_JOB_START_TIME=1737249600
+SLURM_JOB_START_TIME=1737507120
 SLURM_JOB_QOS=olympus-academic
 SLURM_JOB_PARTITION=adademic
 SLURM_JOB_NUM_NODES=1
 SLURM_JOB_NODELIST=n01-zeus
 SLURM_JOB_NAME=csce-714
-SLURM_JOB_ID=57576
+SLURM_JOB_ID=57942
 SLURM_JOB_GROUP=davidkebo
 SLURM_JOB_GID=421004447
-SLURM_JOB_END_TIME=1737292800
+SLURM_JOB_END_TIME=1737550320
 SLURM_JOB_CPUS_PER_NODE=2
 SLURM_JOB_ACCOUNT=all
-SLURM_JOBID=57576
+SLURM_JOBID=57942
 SLURM_GTIDS=0
 SLURM_CPU_BIND_VERBOSE=quiet
 SLURM_CPU_BIND_TYPE=mask_cpu:
-SLURM_CPU_BIND_LIST=0x0010000100
-SLURM_CPU_BIND=quiet,mask_cpu:0x0010000100
+SLURM_CPU_BIND_LIST=0x0100001000
+SLURM_CPU_BIND=quiet,mask_cpu:0x0100001000
 SLURM_CPUS_PER_TASK=2
 SLURM_CPUS_ON_NODE=2
 SLURM_CONF=/etc/slurm/slurm.conf
@@ -794,14 +794,14 @@ MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
 MODULESHOME=/usr/share/Modules
 MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/local/modules:/opt/intel/oneapi/modulefiles:/usr/local/modules:/opt/intel/oneapi/modulefiles
 MFLAGS=
-MAKE_TERMOUT=/dev/pts/4
-MAKE_TERMERR=/dev/pts/4
+MAKE_TERMOUT=/dev/pts/6
+MAKE_TERMERR=/dev/pts/6
 MAKELEVEL=1
 MAKEFLAGS=
 LOADEDMODULES=
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 LC_ALL=C
-KRB5CCNAME=FILE:/tmp/krb5cc_cdc421004447_9mCPJi
+KRB5CCNAME=FILE:/tmp/krb5cc_cdc421004447_WhQqwN
 HISTTIMEFORMAT=%F %T:%F %T
 HISTCONTROL=ignoredups
 GUESTFISH_RESTORE=\e[0m
@@ -809,14 +809,14 @@ GUESTFISH_PS1=\[\e[1;32m\]><fs>\[\e[0;31m\]
 GUESTFISH_OUTPUT=\e[0m
 GUESTFISH_INIT=\e[1;34m
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/421004447/bus
-DA_SESSION_ID_AUTH=4f9a1116-6164-e548-acf6-a6b3d43549bf
+DA_SESSION_ID_AUTH=34f58983-6a10-5543-89e9-c2c9f2c33fc0
 C_INCLUDE_PATH=/opt/coe/cadence/JASPERGOLD240/include/:/opt/coe/cadence/VIPCAT/include/
 CDC_PREW2KHOST=olympus
 CDC_LOCALHOST=olympus.engr.tamu.edu
 CDC_JOINED_ZONE=CN=Login_Nodes,CN=HPC,CN=Global,CN=Zones,OU=Centrify,OU=Services,DC=engr,DC=tamu,DC=edu
 CDC_JOINED_SITE=TAMU
 CDC_JOINED_DOMAIN=engr.tamu.edu
-CDC_JOINED_DC=ops3.engr.tamu.edu
+CDC_JOINED_DC=ops2.engr.tamu.edu
 BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
 BASH_FUNC_switchml%%=() {  typeset swfound=1;_ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then_ typeset swname='main';_ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then_ typeset swfound=0;_ unset MODULES_USE_COMPAT_VERSION;_ fi;_ else_ typeset swname='compatibility';_ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then_ typeset swfound=0;_ MODULES_USE_COMPAT_VERSION=1;_ export MODULES_USE_COMPAT_VERSION;_ fi;_ fi;_ if [ $swfound -eq 0 ]; then_ echo "Switching to Modules $swname version";_ source /usr/share/Modules/init/bash;_ else_ echo "Cannot switch to Modules $swname version, command not found";_ return 1;_ fi_}
 BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
@@ -827,15 +827,15 @@ BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBU
 0
 169
 1737249168 ../test/mem_wr_rd_test.sv
-1737249168 ../tb/mem_scoreboard.sv
+1737401986 ../tb/mem_scoreboard.sv
 1737249168 ../tb/mem_monitor.sv
-1737249168 ../tb/mem_driver.sv
-1737249168 ../tb/mem_sequence.sv
-1737249168 ../tb/mem_sequencer.sv
+1737397432 ../tb/mem_driver.sv
+1737400874 ../tb/mem_sequence.sv
+1737397436 ../tb/mem_sequencer.sv
 1737258884 ../tb/mem_seq_item.sv
-1737254712 ../tb/mem_agent.sv
+1737397442 ../tb/mem_agent.sv
 1737249168 ../tb/mem_env.sv
-1737249168 ../test/mem_test.sv
+1737403687 ../test/mem_test.sv
 1737249168 ../tb/mem_interface.sv
 1705813085 /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/verdi/uvm_verdi_pli.svh
 1704885200 /opt/coe/synopsys/verdi/V-2023.12-1//share/PLI/VCS/include/verdi_trans_recorder_dpi.svh
@@ -984,8 +984,8 @@ BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBU
 1705813085 /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/macros/snps_macros.svp
 1705813085 /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/macros/uvm_version_defines.svh
 1705813085 /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/uvm_macros.svh
-1737258893 ../tb/testbench.sv
-1737249168 ../design/design.sv
+1737337163 ../tb/testbench.sv
+1737337351 ../design/design.sv
 1705813085 /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/verdi/uvm_custom_install_verdi_recorder.sv
 1705813085 /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/verdi/uvm_custom_install_verdi_recorder.sv
 1705813085 /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/vcs/uvm_custom_install_vcs_recorder.sv
@@ -1002,5 +1002,5 @@ BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBU
 1705810837 /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/liberrorinf.so
 1705810789 /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/libsnpsmalloc.so
 1705810836 /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/libvfs.so
-1737258918 simv.daidir
+1737507284 simv.daidir
 -1 partitionlib

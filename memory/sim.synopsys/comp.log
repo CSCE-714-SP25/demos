@@ -1,5 +1,5 @@
                          Chronologic VCS (TM)
-        Version V-2023.12-1_Full64 -- Sat Jan 18 21:55:00 2025
+        Version V-2023.12-1_Full64 -- Tue Jan 21 18:54:25 2025
 
                     Copyright (c) 1991 - 2024 Synopsys, Inc.
    This software and the associated documentation are proprietary to Synopsys,
@@ -404,8 +404,8 @@ rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
 g++ -w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/opt/coe/synopsys/vcs/V-2023.12-1/include    -c /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/dpi/uvm_dpi.cc
 g++ -w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/opt/coe/synopsys/vcs/V-2023.12-1/include    -c /opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm-1.1/verdi/dpi/uvm_verdi_dpi.cpp
 if [ -x ../simv ]; then chmod a-x ../simv; fi
-g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib -L/opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1 uvm_dpi.o uvm_verdi_dpi.o   objs/amcQw_d.o   _129081_archive_1.so   SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -lreader_common /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/libBA.a -luclinative /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o  _vcs_pli_stub_.o   /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/vcs_save_restore_new.o /opt/coe/synopsys/verdi/V-2023.12-1//share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib -L/opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1 uvm_dpi.o uvm_verdi_dpi.o   objs/amcQw_d.o   _1198537_archive_1.so   SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -lreader_common /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/libBA.a -luclinative /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o  _vcs_pli_stub_.o   /opt/coe/synopsys/vcs/V-2023.12-1/linux64/lib/vcs_save_restore_new.o /opt/coe/synopsys/verdi/V-2023.12-1//share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
 ../simv up to date
 make[1]: Leaving directory '/home/faculty/d/davidkebo/csce-714/2025-spring/demos/memory/sim.synopsys/csrc'
-CPU time: 13.614 seconds to compile + .365 seconds to elab + 1.152 seconds to link
+CPU time: 13.451 seconds to compile + .360 seconds to elab + 1.156 seconds to link
 Verdi KDB elaboration done and the database successfully generated: 0 error(s), 0 warning(s)

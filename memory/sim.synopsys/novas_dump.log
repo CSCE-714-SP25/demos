@@ -188,62 +188,62 @@ maxproc		765895
 
 Runtime environment variables:
 SLURM_JOB_GROUP=davidkebo
-LD_LIBRARY_PATH=/opt/coe/synopsys/verdi/V-2023.12-1//share/FsdbWriter/LINUX64/:/opt/coe/synopsys/verdi/V-2023.12-1//share/FsdbReader/LINUX64/:/opt/coe/synopsys/verdi/V-2023.12-1//share/FsdbWriter/LINUX64/:/opt/coe/synopsys/verdi/V-2023.12-1//share/FsdbReader/LINUX64/:/opt/coe/synopsys/verdi/V-2023.12-1//share/FsdbWriter/LINUX64/:/opt/coe/synopsys/verdi/V-2023.12-1//share/FsdbReader/LINUX64/:/opt/coe/cadence/JASPERGOLD240/lib/:/opt/coe/cadence/JASPERGOLD240/lib64/:/opt/coe/cadence/VIPCAT/lib/:/opt/coe/cadence/VIPCAT/lib64/
+LD_LIBRARY_PATH=/opt/coe/synopsys/verdi/V-2023.12-1//share/FsdbWriter/LINUX64/:/opt/coe/synopsys/verdi/V-2023.12-1//share/FsdbReader/LINUX64/:/opt/coe/cadence/JASPERGOLD240/lib/:/opt/coe/cadence/JASPERGOLD240/lib64/:/opt/coe/cadence/VIPCAT/lib/:/opt/coe/cadence/VIPCAT/lib64/
 LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
 SRUN_DEBUG=3
 SLURM_STEP_ID=0
 SLURM_NODEID=0
-SLURM_TASK_PID=65919
-SSH_CONNECTION=172.31.27.47 49587 128.194.17.175 22
+SLURM_TASK_PID=1195156
+SSH_CONNECTION=172.31.31.235 49808 128.194.17.175 22
 SLURM_PRIO_PROCESS=0
 CDC_PREW2KHOST=olympus
 SLURM_CPU_BIND_VERBOSE=quiet
 MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
 _=./simv
 LANG=en_US.UTF-8
-SLURM_SUBMIT_DIR=/home/faculty/d/davidkebo/csce-714/2025-spring/demos/memory
+SLURM_SUBMIT_DIR=/home/faculty/d/davidkebo/csce-714/2025-spring/demos
 HISTCONTROL=ignoredups
-DISPLAY=localhost:61.0
+DISPLAY=localhost:68.0
 GUESTFISH_RESTORE=\e[0m
 HISTTIMEFORMAT=%F %T:%F %T
 HOSTNAME=n01-zeus.olympus.ece.tamu.edu
-OLDPWD=/opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm/src
+OLDPWD=/home/faculty/d/davidkebo/csce-714/2025-spring/demos/memory
 SLURM_CPUS_PER_TASK=2
 C_INCLUDE_PATH=/opt/coe/cadence/JASPERGOLD240/include/:/opt/coe/cadence/VIPCAT/include/
 SLURM_STEPID=0
 SLURM_SRUN_COMM_HOST=192.168.2.3
 CDC_JOINED_ZONE=CN=Login_Nodes,CN=HPC,CN=Global,CN=Zones,OU=Centrify,OU=Services,DC=engr,DC=tamu,DC=edu
 GUESTFISH_INIT=\e[1;34m
-MAKE_TERMOUT=/dev/pts/4
+MAKE_TERMOUT=/dev/pts/6
 SNPSLMD_LICENSE_FILE=27070@coe-vtls3.engr.tamu.edu
 SLURM_PROCID=0
 SLURM_JOB_GID=421004447
 CDC_LOCALHOST=olympus.engr.tamu.edu
-SLURM_CPU_BIND=quiet,mask_cpu:0x0010000100
+SLURM_CPU_BIND=quiet,mask_cpu:0x0100001000
 SLURMD_NODENAME=n01-zeus
-SLURM_JOB_END_TIME=1737292800
+SLURM_JOB_END_TIME=1737550320
 MFLAGS=
 SLURM_TASKS_PER_NODE=1
 which_declare=declare -f
-XDG_SESSION_ID=10193
+XDG_SESSION_ID=13178
 MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
 SLURM_NNODES=1
 USER=davidkebo
 SLURM_LAUNCH_NODE_IPADDR=192.168.2.3
 GUESTFISH_PS1=\[\e[1;32m\]><fs>\[\e[0;31m\] 
 SLURM_STEP_TASKS_PER_NODE=1
-SLURM_JOB_START_TIME=1737249600
+SLURM_JOB_START_TIME=1737507120
 SELINUX_ROLE_REQUESTED=
 PWD=/home/faculty/d/davidkebo/csce-714/2025-spring/demos/memory/sim.synopsys
 SLURM_JOB_NODELIST=n01-zeus
 HOME=/home/faculty/d/davidkebo
 SLURM_CLUSTER_NAME=olympus
 SLURM_NODELIST=n01-zeus
-SSH_CLIENT=172.31.27.47 49587 22
+SSH_CLIENT=172.31.31.235 49808 22
 SLURM_NTASKS=1
 SLURM_UMASK=0002
 SELINUX_LEVEL_REQUESTED=
-KRB5CCNAME=FILE:/tmp/krb5cc_cdc421004447_9mCPJi
+KRB5CCNAME=FILE:/tmp/krb5cc_cdc421004447_WhQqwN
 SLURM_JOB_CPUS_PER_NODE=2
 SLURM_TOPOLOGY_ADDR=n01-zeus
 SLURMD_DEBUG=2
@@ -251,15 +251,15 @@ SLURM_WORKING_CLUSTER=olympus:olympus.ece.tamu.edu:6817:9984:109
 VCS_ARCH_OVERRIDE=linux
 SLURM_STEP_NODELIST=n01-zeus
 SLURM_JOB_NAME=csce-714
-SLURM_SRUN_COMM_PORT=34925
+SLURM_SRUN_COMM_PORT=37727
 TMPDIR=/tmp
-SLURM_JOBID=57576
+SLURM_JOBID=57942
 SLURM_CONF=/etc/slurm/slurm.conf
 LOADEDMODULES=
 SLURM_JOB_QOS=olympus-academic
 SLURM_TOPOLOGY_ADDR_PATTERN=node
-SSH_TTY=/dev/pts/66
-DA_SESSION_ID_AUTH=4f9a1116-6164-e548-acf6-a6b3d43549bf
+SSH_TTY=/dev/pts/84
+DA_SESSION_ID_AUTH=34f58983-6a10-5543-89e9-c2c9f2c33fc0
 MAIL=/var/spool/mail/davidkebo
 SLURM_CPUS_ON_NODE=2
 SLURM_JOB_NUM_NODES=1
@@ -268,32 +268,32 @@ SHELL=/bin/bash
 SLURM_JOB_UID=421004447
 LM_LICENSE_FILE=27070@coe-vtls3.engr.tamu.edu
 SLURM_JOB_PARTITION=adademic
-SLURM_PTY_WIN_ROW=41
+SLURM_PTY_WIN_ROW=42
 SELINUX_USE_CURRENT_RANGE=
-SLURM_CPU_BIND_LIST=0x0010000100
+SLURM_CPU_BIND_LIST=0x0100001000
 MAKELEVEL=1
 VERDI_HOME=/opt/coe/synopsys/verdi/V-2023.12-1/
 SLURM_JOB_USER=davidkebo
-SLURM_PTY_WIN_COL=80
+SLURM_PTY_WIN_COL=96
 SLURM_NPROCS=1
-CDC_JOINED_DC=ops3.engr.tamu.edu
+CDC_JOINED_DC=ops2.engr.tamu.edu
 SHLVL=3
 SLURM_SUBMIT_HOST=olympus.ece.tamu.edu
-MAKE_TERMERR=/dev/pts/4
+MAKE_TERMERR=/dev/pts/6
 SLURM_JOB_ACCOUNT=all
 CDC_JOINED_DOMAIN=engr.tamu.edu
 MANPATH=::/opt/coe/cadence/JASPERGOLD240/man/:/opt/coe/cadence/VIPCAT/man/
 UVMHOME=/opt/coe/synopsys/vcs/V-2023.12-1/etc/uvm
-SLURM_STEP_LAUNCHER_PORT=34925
+SLURM_STEP_LAUNCHER_PORT=37727
 MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/local/modules:/opt/intel/oneapi/modulefiles:/usr/local/modules:/opt/intel/oneapi/modulefiles
-SLURM_PTY_PORT=42535
+SLURM_PTY_PORT=34093
 SLURM_GTIDS=0
 LOGNAME=davidkebo
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/421004447/bus
 XDG_RUNTIME_DIR=/run/user/421004447
-XAUTHORITY=/tmp/.Xauthority-cxhliU
-PATH=/opt/coe/synopsys/verdi/V-2023.12-1//bin:/opt/coe/synopsys/vcs/V-2023.12-1/bin:/opt/coe/synopsys/vcs/V-2023.12-1/hspice/bin:/opt/coe/synopsys/verdi/V-2023.12-1//bin:/opt/coe/synopsys/vcs/V-2023.12-1/bin:/opt/coe/synopsys/vcs/V-2023.12-1/hspice/bin:/opt/coe/synopsys/verdi/V-2023.12-1//bin:/opt/coe/synopsys/vcs/V-2023.12-1/bin:/opt/coe/synopsys/vcs/V-2023.12-1/hspice/bin:/opt/coe/matlab/R2022b/bin:/opt/coe/bin:/usr/share/Modules/bin:/opt/coe/matlab/R2022b/bin:/opt/coe/bin:/home/faculty/d/davidkebo/.local/bin:/home/faculty/d/davidkebo/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/coe/cadence/JASPERGOLD240/bin/:/opt/coe/cadence/VIPCAT/bin/
-SLURM_JOB_ID=57576
+XAUTHORITY=/tmp/.Xauthority-BG0BpW
+PATH=/opt/coe/synopsys/verdi/V-2023.12-1//bin:/opt/coe/synopsys/vcs/V-2023.12-1/bin:/opt/coe/synopsys/vcs/V-2023.12-1/hspice/bin:/opt/coe/matlab/R2022b/bin:/opt/coe/bin:/usr/share/Modules/bin:/opt/coe/matlab/R2022b/bin:/opt/coe/bin:/home/faculty/d/davidkebo/.local/bin:/home/faculty/d/davidkebo/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/coe/cadence/JASPERGOLD240/bin/:/opt/coe/cadence/VIPCAT/bin/
+SLURM_JOB_ID=57942
 VCS_HOME=/opt/coe/synopsys/vcs/V-2023.12-1
 SLURM_CPU_BIND_TYPE=mask_cpu:
 GUESTFISH_OUTPUT=\e[0m
@@ -421,8 +421,8 @@ argv[14]=nopostproc
 argv[15]=-cm_name
 argv[16]=test_mem_wr_rd_test
 339 profile - 100
-          CPU/Mem usage: 0.120 sys,  0.310 user,  436.06M mem
-340 Elapsed time:    0:00:03    Sat Jan 18 21:57:30 2025
+          CPU/Mem usage: 0.080 sys,  0.320 user,  436.06M mem
+340 Elapsed time:    0:00:01    Tue Jan 21 18:54:54 2025
 341 User CPU time used: 0 seconds
 342 System CPU time used: 0 seconds
 343 pliAppInit
@@ -452,29 +452,29 @@ argv[16]=test_mem_wr_rd_test
 367 *Verdi* : Begin traversing the SVA assertions, layer (0).
 368 *Verdi* : End of traversing the SVA assertions.
 369 pliAppHDL_DumpSVAComplete traverse var: profile - 
-          CPU/Mem usage: 0.130 sys,  0.320 user,  531.58M mem
-                   incr: 0.000 sys,  0.000 user,  3.76M mem
-                   accu: 0.000 sys,  0.000 user,  3.76M mem
-              accu incr: 0.000 sys,  0.000 user,  3.76M mem
+          CPU/Mem usage: 0.100 sys,  0.330 user,  531.58M mem
+                   incr: 0.010 sys,  0.000 user,  3.76M mem
+                   accu: 0.010 sys,  0.000 user,  3.76M mem
+              accu incr: 0.010 sys,  0.000 user,  3.76M mem
 
           Count usage: 2 var,  2 idcode,  0 callback
                  incr: 2 var,  2 idcode,  0 callback
                  accu: 2 var,  2 idcode,  0 callback
             accu incr: 2 var,  2 idcode,  0 callback
-370 Elapsed time:    0:00:03    Sat Jan 18 21:57:30 2025
+370 Elapsed time:    0:00:01    Tue Jan 21 18:54:54 2025
 371 User CPU time used: 0 seconds
 372 System CPU time used: 0 seconds
 373 pliAppHDL_DumpSVAComplete: profile - 
-          CPU/Mem usage: 0.130 sys,  0.320 user,  531.58M mem
+          CPU/Mem usage: 0.100 sys,  0.330 user,  531.58M mem
                    incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  3.76M mem
+                   accu: 0.010 sys,  0.000 user,  3.76M mem
               accu incr: 0.000 sys,  0.000 user,  0.00M mem
 
           Count usage: 2 var,  2 idcode,  0 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 2 var,  2 idcode,  0 callback
             accu incr: 0 var,  0 idcode,  0 callback
-374 Elapsed time:    0:00:03    Sat Jan 18 21:57:30 2025
+374 Elapsed time:    0:00:01    Tue Jan 21 18:54:54 2025
 375 User CPU time used: 0 seconds
 376 System CPU time used: 0 seconds
 377 sps_tcl_fsdbDumpvars_vd_main
@@ -489,57 +489,57 @@ argv[16]=test_mem_wr_rd_test
 386 *Verdi* : Enable +struct, +mda and +packedmda dumping.
 387 *Verdi* : End of traversing.
 388 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.140 sys,  0.330 user,  535.77M mem
-                   incr: 0.010 sys,  0.010 user,  4.19M mem
-                   accu: 0.010 sys,  0.010 user,  4.19M mem
-              accu incr: 0.010 sys,  0.010 user,  4.19M mem
+          CPU/Mem usage: 0.100 sys,  0.340 user,  535.77M mem
+                   incr: 0.000 sys,  0.010 user,  4.19M mem
+                   accu: 0.000 sys,  0.010 user,  4.19M mem
+              accu incr: 0.000 sys,  0.010 user,  4.19M mem
 
           Count usage: 68 var,  64 idcode,  55 callback
                  incr: 66 var,  62 idcode,  55 callback
                  accu: 66 var,  62 idcode,  55 callback
             accu incr: 66 var,  62 idcode,  55 callback
-389 Elapsed time:    0:00:03    Sat Jan 18 21:57:30 2025
+389 Elapsed time:    0:00:01    Tue Jan 21 18:54:54 2025
 390 User CPU time used: 0 seconds
 391 System CPU time used: 0 seconds
 392 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.140 sys,  0.330 user,  536.83M mem
+          CPU/Mem usage: 0.100 sys,  0.340 user,  536.83M mem
                    incr: 0.000 sys,  0.000 user,  1.05M mem
-                   accu: 0.010 sys,  0.010 user,  5.24M mem
+                   accu: 0.000 sys,  0.010 user,  5.24M mem
               accu incr: 0.000 sys,  0.000 user,  1.05M mem
 
           Count usage: 68 var,  64 idcode,  55 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 66 var,  62 idcode,  55 callback
             accu incr: 0 var,  0 idcode,  0 callback
-393 Elapsed time:    0:00:03    Sat Jan 18 21:57:30 2025
+393 Elapsed time:    0:00:01    Tue Jan 21 18:54:54 2025
 394 User CPU time used: 0 seconds
 395 System CPU time used: 0 seconds
 396 sps_tcl_fsdbDumpflush_vd_main at 0 : N/A(0)
 397 *Verdi* : Flush all FSDB Files at 0 ps.
 398 End of simulation at 95000
-399 Memory usage: 556.863 M
+399 Memory usage: 556.859 M
 400 Maximum resident set size: 187 MB
-401 Hard page faults: 258
-402 Soft page faults: 18719
-403 Elapsed time:    0:00:04    Sat Jan 18 21:57:31 2025
+401 Hard page faults: 166
+402 Soft page faults: 18818
+403 Elapsed time:    0:00:01    Tue Jan 21 18:54:54 2025
 404 User CPU time used: 0 seconds
 405 System CPU time used: 0 seconds
 406 Begin FSDB profile info:
 407 FSDB Writer : bc1(80) bcn(60) mtf/stf(0/1)
-FSDB Writer elapsed time : flush(0.016416) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer elapsed time : flush(0.013102) io wait(0.000000) theadpool wait(0.000000)
 FSDB Writer cpu time : MT Compression : 0
 408 End FSDB profile info
-409 FSDB closed. Name: myfsdb.fsdb Size: 14004
+409 FSDB closed. Name: myfsdb.fsdb Size: 14005
 410 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
 411                      - BlockUsed:1 Acquire:0 BufferUsed:1331
 412                      - Flush:6 Expand:0 ProducerWait:0 ConsumerWait:0
-413                      - MainProducerTime:0.490043795 TotalConsumerTime:0.000000000
-414                      - ElapsedTime:0.874557000
+413                      - MainProducerTime:0.463325777 TotalConsumerTime:0.000000000
+414                      - ElapsedTime:0.710672000
 415 Producer   0 profile - BlockUsed:2 Acquire:0 BufferUsed:1331
 416 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
 417                      - BlockUsed:2 Acquire:0 BufferUsed:1331
 418 SimExit
-419 Elapsed time:    0:00:04    Sat Jan 18 21:57:31 2025
+419 Elapsed time:    0:00:02    Tue Jan 21 18:54:55 2025
 420 User CPU time used: 0 seconds
 421 System CPU time used: 0 seconds
 422 Sim process exit

@@ -7,15 +7,22 @@ PKTD  := "4"
 PKTV  := "3"
 
 comp:
+	echo "PACKET_LENGTH is ${PKTL}"
+	echo "PACKET_DELAY is ${PKTD}"
+	echo "PACKET_VCs is ${PKTV}"
 	rm -Rf comp.log cov_work/test.vdb
 	vcs -full64 -sverilog -ntb_opts uvm-1.1 -timescale=1ns/1ps -kdb -debug_access+all -f filelist.f -cm line+tgl+assert+fsm+branch -cm_tgl portsonly -cm_tgl structarr -cm_report noinitial -cm_seqnoconst -cm_dir cov_work/test.vdb -cm_hier cover.cfg +define+PKT_LENGTH="${PKTL}" +define+PKT_DELAY="${PKTD}" +define+PKT_VCS="${PKTV}" |& tee comp.log
 run:
+	echo "SEED is 1"
+	echo "ITER is 1"
 	echo "TEST is ${TEST}"
 	rm -Rf run.log ${TEST}.log myfsdb.fsdb ${TEST}.fsdb
 	./simv -ucli -i mydump_fsdb.tcl +UVM_TESTNAME="${TEST}" +UVM_TIMEOUT=100000 +ntb_random_seed=1 -cm line+tgl+assert+fsm+branch -cm_dir cov_work/test.vdb -cm_log /dev/null -assert nopostproc -cm_name test_"${TEST}" |& tee run.log
 	mv run.log ${TEST}.log
 	mv myfsdb.fsdb ${TEST}.fsdb
 runx:
+	echo "SEED is ${SEED}"
+	echo "ITER is ${ITER}"
 	echo "TEST is ${TEST}"
 	rm -Rf run.log ${TEST}_*.log myfsdb.fsdb ${TEST}_*.fsdb
 	./simv -ucli -i mydump_fsdb.tcl +UVM_TESTNAME="${TEST}" +UVM_TIMEOUT=100000 +ntb_random_seed="${SEED}" -cm line+tgl+assert+fsm+branch -cm_dir cov_work/test.vdb -cm_log /dev/null -assert nopostproc -cm_name test_"${TEST}"_"${ITER}" |& tee run.log
